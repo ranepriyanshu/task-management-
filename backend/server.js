@@ -184,7 +184,7 @@ const logger = winston.createLogger({
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: ["https://task-management-backend-2x0d.onrender.com","http://localhost:3000"],
     credentials: true,
   })
 );
